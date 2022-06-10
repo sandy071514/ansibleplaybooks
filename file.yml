@@ -1,0 +1,9 @@
+---
+ - hosts: demo
+   become: true
+   tasks: 
+     - name: creating a file
+       file:
+        path: /root/naveen.txt
+        state: present
+        mode: 0777
