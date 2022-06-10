@@ -5,5 +5,5 @@
      - name: creating a file
        file:
         path: /root/naveen.txt
-        state: file
+        state: touch
         mode: 0777
